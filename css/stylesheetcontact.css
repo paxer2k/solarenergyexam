@@ -1,0 +1,334 @@
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+	margin:0;
+}
+
+h1
+{
+	font-size: 2em;
+}
+
+h2 
+{
+	font-size: 1.5em;
+}
+
+
+li a 
+{
+	color: black;
+	padding: 40px 60px;
+	display: inline;
+	font-size: 40px;	
+}
+
+li a:hover 
+{
+	background-color: #808080;
+}
+
+
+.main-nav 
+{
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #333;
+	color:#fff;
+}
+
+.main-nav li 
+{
+	display: inline;
+}
+
+.main-nav a 
+{
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+}
+
+#main-footer 
+{
+	 float:left;
+	 bottom: 0;
+	 width:100%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 font: normal 13px verdana, sans-serif;
+ 	 height: 100px;
+ }
+
+#main-footer p 
+{
+	font-size:15px;
+}
+
+
+.flexbox-container 
+{
+ 	display: flex;
+ 	flex-direction:row;
+ 	justify-content: space-between;
+}
+
+ aside 
+{
+	font-size: 13px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 10px 10px 0;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	justify-content: space-between;;
+	border:3px solid green;
+}
+
+
+ .asideOfContact1 
+{
+	text-align:center;
+}
+.asideOfContact2 
+{
+	text-align:center;
+}
+.asideOfContact3 
+{
+	text-align:center;
+}
+
+
+#contact-info {
+	text-align: center;
+	font-size: 1.2em;
+
+}
+
+legend 
+{
+	color: red;
+}
+
+.my-form 
+{
+	padding: 20px;
+	width: 80%
+}
+
+.my-form .form-group
+{
+	padding-bottom:20px;
+}
+
+.my-form label 
+{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea 
+{
+	padding: 8px;
+	width:75%;
+}
+
+.button
+{
+	background-color:#333;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+}
+
+#logoWeb 
+{
+	background: #FFFFFF;
+	height: 200px;
+
+}
+
+#cookieStatement 
+{
+	width: 300px;
+	text-align: center;
+	flex-grow 0;
+	flex-shrink 0;
+	background-color: #FA0; opacity: 0.5;
+	float: right;
+}
+
+.flexbox-footers 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.vidWeb 
+{
+	width:1920px;
+	height:900px;
+}
+
+.nav {
+	border-bottom:1px;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	background-color:#67abb4;
+}
+
+.menu {
+	margin:0 10px 0 0;
+	width:100%;
+	display: flex;
+	text-align: center;
+}
+
+.menu a {
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	display: flex;
+ 	flex-direction:row;
+	line-height: 10px;
+}
+
+span 
+{
+	color:#00388a;
+}
+
+.menuLabel 
+{
+	margin:0 40px 0 0;
+	font-size:26px;
+	line-height: 70px;
+	display:none;
+	width:26px;
+	float:right;
+	color: black;
+}
+
+#toggle 
+{
+	display: none;
+}
+
+
+@media only screen and(max-width: 1179px) 
+{
+	
+	body 
+	{
+		background-color: gray;
+	}
+
+	.menuLabel 
+	{
+		display: block;
+		cursor:pointer;
+	}	
+
+	.menu 
+	{
+		text-align: center;
+		width:100%;
+		display:none;
+	}
+
+	.menu a 
+	{
+		display: block;
+		border-bottom: 1px solid #EAEAEB;
+	}
+
+	#toggle:checked + .menu 
+	{
+		display: block;
+	}
+}
+
+ 
+@media only screen and (max-width: 480px) {
+	
+.menuLabel 
+{
+	display: flex;
+	cursor: pointer;
+}
+
+.main-nav 
+{
+	background-color: white;
+	border: none;
+}
+
+.main-nav a
+{
+	background-color:#333;
+}
+
+.flexbox-container1
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.menu 
+{
+	display: flex;
+}
+
+.menu a 
+{
+	display: none;
+}
+
+#toggle:checked + .menu 
+{
+	display:flex;
+ 	flex-direction:column;
+}
+
+#toggle:checked + .menu a
+{
+	display:flex;
+ 	flex-direction:column;
+}
+
+#logoWeb 
+{
+	display: none;
+}
+
+
+#toggle:checked + .menu 
+{
+	display:flex;
+	flex-direction: column;
+}
+
+.asides 
+{
+		display: flex;
+		flex-direction: column;
+		font-size: 20px;
+}
+
+.flexbox-container
+{
+	flex-direction: column;
+}
+
+
+}

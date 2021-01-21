@@ -1,0 +1,423 @@
+h1
+{
+	font-size: 2em;
+}
+
+h2 
+{
+	font-size: 1.5em;
+}
+
+
+.articleH2, .asideH2 
+{
+	text-align: center;
+	background-color: #FFA500;
+	color:white;
+}
+
+
+
+body 
+{
+	font-family: Arial, Notable;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+	word-spacing: 2px;
+}
+
+
+
+li a 
+{
+	color: black;
+	padding: 20px 20px;
+	display: inline;
+	font-size: 40px;
+	position: relative:
+	
+	
+}
+
+li a:hover 
+{
+	background-color: #808080;
+}
+
+
+.main-nav 
+{
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #333;
+	color:#fff;
+}
+
+.main-nav li 
+{
+	display: inline;
+}
+
+.main-nav a 
+{
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+.articleOfIndex img 
+{
+	height: 200px;
+	width:200px;
+	float:right;
+}
+
+.articleOfIndex 
+{
+	font-size: 13px;
+	width:70%;
+	padding: 5px;
+}
+
+.articleOfIndex h2 
+{
+	text-align: center;
+}
+
+.articleOfIndex p 
+{
+	text-align: center;
+
+}
+
+.articleOfIndex footer 
+{
+	text-align: center;
+}
+
+
+
+.flexbox-asides 
+{
+	padding-top: 300px;
+	width: 100%;
+}
+
+.flexbox-container 
+{
+	height:auto;
+	display: flex;
+ 	flex-direction:row;
+ 	justify-content: space-between;
+}
+
+
+#backgroundImage 
+{
+	max-width: 100%;
+	height:auto;
+}
+
+.articleOfIndex p 
+{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	width:100%;
+}
+.productImages 
+{
+	text-align: center;
+	float: right;
+	width: 100%;
+    height:auto;
+}
+
+
+#reasons 
+{
+	border: 1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+	float:right;
+	margin: auto;
+	position:relative; top: -1225px;
+	width: 28%;
+
+}
+
+.asideOfIndex h2 
+{
+	text-align:center;
+	color: white;
+	width:100%;
+}
+
+.asideOfIndex ul 
+{
+	margin: 10px;
+}
+
+.asideOfIndex li 
+{
+ 	float:right;
+	padding-bottom: 8px;
+	border-bottom:dotted 1px #333;
+	width:100%;
+}
+
+.art1 
+{
+		border:1px solid black;
+		margin: 5px;
+}
+
+.art2 
+{
+		border:1px solid black;
+		margin: 5px;
+}
+
+.art3 
+{
+		border:1px solid black;
+		margin: 5px;
+}
+
+#main-footer 
+{
+	 float:left;
+	 bottom: 0;
+	 width:100%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 font: normal 13px verdana, sans-serif;
+ 	 height: 100px;
+ }
+
+#main-footer p 
+{
+	font-size:15px;
+	color:#333;
+}
+
+#cookieStatement
+{
+	width: 300px;
+	text-align: center;
+	flex-grow 0;
+	flex-shrink 0;
+	background-color: #FA0; opacity: 0.5;
+	float: right;
+}
+
+
+.flexbox-footers 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+.button
+{
+	background-color:#333;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+	text-align: center;
+}
+
+#logoWeb 
+{
+	background: #FFFFFF;
+	height: 200px;
+}
+
+.vidWeb 
+{
+	width: 100%;
+    height: auto;
+}
+
+.nav 
+{
+	border-bottom:1px;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	background-color:#67abb4;
+}
+
+.menu 
+{
+	margin:0 10px 0 0;
+	width:100%;
+	display: flex;
+	text-align: center;
+}
+
+.menu a 
+{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	display: flex;
+ 	flex-direction:row;
+	line-height: 10px;
+}
+
+span 
+{
+	color:#00388a;
+}
+
+label 
+{
+	margin:0 40px 0 0;
+	font-size:26px;
+	line-height: 70px;
+	display:none;
+	width:26px;
+	float:right;
+	color: black;
+}
+
+#toggle 
+{
+	display: none;
+}
+
+	
+@media(max-width: 1179px) 
+{
+	
+	
+	video
+	{
+		width:440px;
+	}
+
+	.flexbox-container 
+	{
+		flex-direction:column-reverse;
+	}
+
+	.articleInfo img 
+	{
+		float:left;
+	}
+
+	.flexbox-articles 
+	{
+		flex-direction: column-reverse;
+	}
+
+	#backgroundImage
+	{
+		display: none;
+	}
+
+		
+}
+
+ 
+@media(max-width: 480px) 
+{
+
+.articleInfo 
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.asideOfIndex 
+{
+	width:100%;
+}
+
+.articleOfIndex 
+{
+	height:auto;
+	width:90%;
+}
+
+.flexbox-container 
+{
+	flex-direction: column-reverse;
+}
+
+
+label 
+{
+	display: flex;
+	cursor: pointer;
+}
+
+.main-nav 
+{
+	background-color: white;
+	border: none;
+}
+
+.main-nav a
+{
+	background-color:#333;
+}
+
+.flexbox-container1
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.menu 
+{
+	display: flex;
+}
+
+.menu a {
+	display: none;
+}
+
+#toggle:checked + .menu 
+{
+	display:flex;
+ 	flex-direction:column;
+}
+
+#toggle:checked + .menu a
+{
+	display:flex;
+ 	flex-direction:column;
+}
+
+#logoWeb 
+{
+	display: none;
+}
+
+.flexbox-logo 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+video 
+{
+	display: none;
+}
+
+}
+

@@ -1,0 +1,4 @@
+Student name: Alexander Arkhipov
+Student number: 647833
+Student class: IT1A
+URL student GitHub repository: https://github.com/paxer2k/solarenergyexam  
